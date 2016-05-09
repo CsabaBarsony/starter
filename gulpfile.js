@@ -5,7 +5,8 @@ var babelify = require('babelify');
 var _ = require('lodash');
 
 var sources = [
-	'./src/scripts/main.js'
+	'./src/scripts/main.js',
+	'./src/scripts/components/food_selector/food_selector.js'
 ];
 
 function compile() {

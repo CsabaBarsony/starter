@@ -1,5 +1,4 @@
-cs.get('user', function(a, b, c) {
+cs.get('user', function(a, b) {
 	console.log(a);
 	console.log(b);
-	console.log(c);
 });
